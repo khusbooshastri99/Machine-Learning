@@ -1,16 +1,16 @@
-# Importing the libraries
+#Importing the libraries
 
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
    
-# Importing the dataset
+#Importing the dataset
 
 dataset = pd.read_csv('Data.csv')
 X = dataset.iloc[:,:-1].values
 y = dataset.iloc[:,-1].values
 
-# To check result 
+#To check result 
 
 print(X)
 [['France' 44.0 72000.0]
@@ -37,7 +37,7 @@ print(y)
  ['No']
  ['Yes']]
 
-# Taking care of missing data
+#Taking care of missing data
 
 from sklearn.impute import SimpleImputer
 imputer = SimpleImputer(missing_values=np.nan, strategy='mean')
@@ -57,8 +57,8 @@ print(X)
  ['France' 37.0 67000.0]]
 
 
-# Encoding categorical data
-  # Encoding the Independent Variable
+#Encoding categorical data
+  #Encoding the Independent Variable
 
   from sklearn.compose import ColumnTransformer
   from sklearn.preprocessing import OneHotEncoder
@@ -78,7 +78,7 @@ print(X)
   [1.0 0.0 0.0 37.0 67000.0]]
 
 
-  # Encoding the Dependent Variable
+  #Encoding the Dependent Variable
    
    from sklearn.preprocessing import LabelEncoder
    le = LabelEncoder()
@@ -87,7 +87,7 @@ print(X)
    print(y)
    ['No' 'Yes' 'No' 'No' 'Yes' 'Yes' 'No' 'Yes' 'No' 'Yes']
    
-# Splitting the dataset into the Training set and Test set
+#Splitting the dataset into the Training set and Test set
 
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 1)
@@ -113,7 +113,7 @@ print(y_test)
 [0 1]
 
 
-# Feature Scaling
+#Feature Scaling
 
 from sklearn.preprocessing import StandardScaler
 sc = StandardScaler()
