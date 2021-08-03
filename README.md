@@ -8,7 +8,7 @@
 
    Machine Learning is a subfield of artificial intelligence that enables machines to improve at a given task with experience.
 
-- [Branches required to build a Machine Learning model](Branches-required-to-build-a-Machine-Learning-model)
+- [Branches required to build a Regression Machine Learning model](Branches-required-to-build-a-Machine-Learning-model)
 
    1.Data Preprocessing:- Data Preprocessing is a technique that is used to convert the raw data into a clean data set.
 
