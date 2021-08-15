@@ -29,8 +29,36 @@
    - [There are different forms of regression model](There-are-different-forms-of-regression-model)
    
       1. Simple Linear Regression:- It is a type of regression analysis where the number of independent variables is one and there is a linear relationship between the                    independent(x) and dependent(y) variable.
+      
       2. Multiple Linear Regression:- It is one of the important regression algorithms which models the linear relationship between a single dependent continuous variable and            more than one independent variable. 
+      
       3. Polynomial Regression:- It is a regression algorithm that models the relationship between a dependent(y) and independent variable(x) as nth degree polynomial.
+     
       4. Support Vector Regression:- It is machine learning algorithm that analyzes data for classification and regression analysis.
+     
       5. Decision Tree Regression:- Decision tree regression observes features of an object and trains a model in the structure of a tree to predict data in the future to                produce meaningful continuous output. 
+      
       6. Random Forest Regression:- It is a supervised learning algorithm that uses ensemble learning method for regression. Ensemble learning method is a technique that                  combines predictions from multiple machine learning algorithms to make a more accurate prediction than a single model.   
+      
+- [Branches required to build Classification Machine Learning Model](Branches-required-to-build-Classification-Machine-Learning-Model)
+ 
+  1. Data Preprocessing:- Data Preprocessing is a technique that is used to convert the raw data into a clean data set.
+  
+  2. Classification:- Classification is a process of categorizing a given set of data into classes, It can be performed on both structured or unstructured data. 
+  
+  - [There are different forms of Classification model](There-are-different-forms-of-Classification-model)
+  
+     1. Logistic Regression:- Logistic regression is a supervised learning classification algorithm used to predict the probability of a target variable.The nature of target or           dependent variable is dichotomous, which means there would be only two possible classes.
+     
+     2. K-Nearest Neighbors (K-NN):-The k-nearest neighbors (KNN) algorithm is a simple, supervised machine learning algorithm that can be used to solve both classification and           regression problems.
+     
+     3. Support Vector Machine (SVM):- SVM is a supervised machine learning algorithm which can be used for classification or regression problems. It uses a technique called the           kernel trick to transform your data and then based on these transformations it finds an optimal boundary between the possible outputs.
+     
+     4. Kernel SVM:- Kernel is used due to set of mathematical functions used in Support Vector Machine provides the window to manipulate the data. So, Kernel Function generally           transforms the training set of data so that a non-linear decision surface is able to transformed to a linear equation in a higher number of dimension spaces.
+     
+     5. Naive Bayes:- Naive Bayes classifiers are a collection of classification algorithms based on Bayes’ Theorem. It is not a single algorithm but a family of algorithms where         all of them share a common principle, i.e. every pair of features being classified is independent of each other.
+     
+     6. Decision Tree Classification:- Decision Tree is a Supervised learning technique that can be used for both classification and Regression problems, but mostly it is                 preferred for solving Classification problems. It is a tree-structured classifier, where internal nodes represent the features of a dataset, branches represent the                 decision rules and each leaf node represents the outcome.
+    
+    7. Random Forest Classification:-Random forest is a supervised learning algorithm which is used for both classification as well as regression. ... Similarly, random forest            algorithm creates decision trees on data samples and then gets the prediction from each of them and finally selects the best solution by means of voting.
+  
