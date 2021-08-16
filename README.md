@@ -20,7 +20,7 @@
    
    4. Reinforcement Machine learning:- It is about taking suitable action to maximize reward in a particular situation. It is employed by various software and machines to find         the best possible behavior or path it should take in a specific situation.
 
-- [Branches required to build a Regression Machine Learning model](Branches-required-to-build-a-Machine-Learning-model)
+- [Branches required to build a Regression Machine Learning model](Branches-required-to-build-a-Regression-Machine-Learning-model)
 
    1. Data Preprocessing:- Data Preprocessing is a technique that is used to convert the raw data into a clean data set.
 
@@ -61,4 +61,18 @@
      6. Decision Tree Classification:- Decision Tree is a Supervised learning technique that can be used for both classification and Regression problems, but mostly it is                 preferred for solving Classification problems. It is a tree-structured classifier, where internal nodes represent the features of a dataset, branches represent the                 decision rules and each leaf node represents the outcome.
     
     7. Random Forest Classification:-Random forest is a supervised learning algorithm which is used for both classification as well as regression. ... Similarly, random forest            algorithm creates decision trees on data samples and then gets the prediction from each of them and finally selects the best solution by means of voting.
+
+- [Branches required to build a Clustering Machine Learning model](Branches-required-to-build-a-Clustering-Machine-Learning-model)
+
+  1.  Data Preprocessing:- Data Preprocessing is a technique that is used to convert the raw data into a clean data set.
+  
+  2.  Clustering:- Clustering is the task of dividing the population or data points into a number of groups such that data points in the same groups are more similar to other data       points in the same group and dissimilar to the data points in other groups. It is basically a collection of objects on the basis of similarity and dissimilarity between           them.
+  
+  - [There are two forms of Clustering model](There-are-two-forms-of-Clustering-model)
+  
+    1. K-Means Clustering:- K-means clustering is one of the simplest and popular unsupervised machine learning algorithms. In other words, the K-means algorithm identifies k            number of centroids, and then allocates every data point to the nearest cluster, while keeping the centroids as small as possible.
+    
+    2. Hierarchical Clustering:- Hierarchical clustering is another unsupervised learning algorithm that is used to group together the unlabeled data points having similar                characteristics. The hierarchy of the clusters is represented as a dendrogram or tree structure.
+  
+
   
