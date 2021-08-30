@@ -73,6 +73,17 @@
     1. K-Means Clustering:- K-means clustering is one of the simplest and popular unsupervised machine learning algorithms. In other words, the K-means algorithm identifies k            number of centroids, and then allocates every data point to the nearest cluster, while keeping the centroids as small as possible.
     
     2. Hierarchical Clustering:- Hierarchical clustering is another unsupervised learning algorithm that is used to group together the unlabeled data points having similar                characteristics. The hierarchy of the clusters is represented as a dendrogram or tree structure.
-  
+ 
+ - [Branches required to build Association rule learning model](Branches-reqired-to-build-Association-rule-learning-model)
+
+   1. Data Preprocessing:- Data Preprocessing is a technique that is used to convert the raw data into a clean data set.
+
+   2. Association rule learning:- Association rule learning is a type of unsupervised learning technique that checks for the dependency of one data item on another data item and         maps accordingly so that it can be more profitable.
+
+   - [There are two types of Association rule learning model](There-are-two-types-of-Association-rule-learning-model)
+     
+     1. Apriori:- Apriori is an algorithm which searches for a series of frequent sets of items in the datasets. It builds on associations and correlations between the itemsets.           It is the algorithm behind “You may also like” where you commonly saw in recommendation platforms.
+     
+     2. Eclat:- The ECLAT algorithm stands for Equivalence Class Clustering and bottom-up Lattice Traversal. It is one of the popular methods of Association Rule mining. This             vertical approach of the ECLAT algorithm makes it a faster algorithm than the Apriori algorithm.
 
   
