@@ -36,10 +36,10 @@ rules = apriori(transactions = transactions, min_support = 0.003, min_confidence
     
   #Displaying the results non sorted
   
-   resultsinDataFrame
+  resultsinDataFrame
     
   #Displaying the results sorted by descending lifts
   
-    resultsinDataFrame.nlargest(n = 10, columns = 'Lift')
+  resultsinDataFrame.nlargest(n = 10, columns = 'Lift')
   
   
