@@ -92,7 +92,7 @@
  
   2. Thompson Sampling:- Thompson Sampling is an approach that successfully tackles the problem. Thompson Sampling makes use of Probability Distribution and Bayes Rule to            predict the success rates of each Slot machine.
 
-- [Natural Language Processing(NLP):-](Natural-Language-Processing(NLP):-)
+- [Natural Language Processing(NLP)](Natural-Language-Processing(NLP))
 
   Natural language processing (NLP) describes the interaction between human language and computers. It's a technology that many people use daily and has been around for years,     but is often taken for granted. A few examples of NLP that people use every day are: Spell check. Autocomplete.
   
