@@ -78,12 +78,17 @@
 
    1. Data Preprocessing:- Data Preprocessing is a technique that is used to convert the raw data into a clean data set.
 
-   2. Association rule learning:- Association rule learning is a type of unsupervised learning technique that checks for the dependency of one data item on another data item and         maps accordingly so that it can be more profitable.
+   2. Association rule learning:- Association rule learning is a type of unsupervised learning technique that checks for the dependency of one data item on another data item and       maps accordingly so that it can be more profitable.
 
    - [There are two types of Association rule learning model](There-are-two-types-of-Association-rule-learning-model)
      
-     1. Apriori:- Apriori is an algorithm which searches for a series of frequent sets of items in the datasets. It builds on associations and correlations between the itemsets.           It is the algorithm behind “You may also like” where you commonly saw in recommendation platforms.
+     1. Apriori:- Apriori is an algorithm which searches for a series of frequent sets of items in the datasets. It builds on associations and correlations between the itemsets.         It is the algorithm behind “You may also like” where you commonly saw in recommendation platforms.
      
      2. Eclat:- The ECLAT algorithm stands for Equivalence Class Clustering and bottom-up Lattice Traversal. It is one of the popular methods of Association Rule mining. This             vertical approach of the ECLAT algorithm makes it a faster algorithm than the Apriori algorithm.
 
+- [Branches required to build Reinforcement Learning model](Branches-required-to-build-Reinforcement-Learning-model)
+  
+  1. Upper Confidence Bound(UCB):- UCB is a deterministic algorithm for Reinforcement Learning that focuses on exploration and exploitation based on a confidence boundary that        the algorithm assigns to each machine on each round of exploration. These boundary decreases when a machine is used more in comparison to other machines.
+ 
+  2. Thompson Sampling:- Thompson Sampling is an approach that successfully tackles the problem. Thompson Sampling makes use of Probability Distribution and Bayes Rule to            predict the success rates of each Slot machine.
   
